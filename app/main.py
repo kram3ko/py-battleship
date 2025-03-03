@@ -6,7 +6,7 @@ class Deck:
     row: int
     column: int
     is_alive: bool = True
-    marker = "□"
+    marker = "\u25A1"
 
 
 @dataclass
